@@ -21,15 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Secrets
-        env:
-          userID: ${{ secrets.BASED_USER_ID }}
-          apiKey: ${{ secrets.BASED_API_KEY }}
-        run: |
-          echo "$userID $apiKey"
-
       - name: Deploy the branch
-        uses: atelier-saulx/based-deploy@v1.0.13
+        uses: atelier-saulx/based-deploy@v1.0.14
         with:
           userID: ${{ secrets.BASED_USER_ID }}
           apiKey: ${{ secrets.BASED_API_KEY }}
