@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Deploy the branch
-        uses: atelier-saulx/based-deploy@v1.0.9
+        uses: atelier-saulx/based-deploy@v1.0.10
         with:
           userID: ${{ secrets.BASED_USER_ID }}
           apiKey: ${{ secrets.BASED_API_KEY }}
