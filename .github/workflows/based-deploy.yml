@@ -23,9 +23,8 @@ jobs:
 
       - name: Deploy the branch
         uses: atelier-saulx/based-deploy@main
-        env:
+        with:
           userID: ${{ secrets.BASED_USER_ID }}
           apiKey: ${{ secrets.BASED_API_KEY }}
-        with:
           size: small
           region: eu-central-1
