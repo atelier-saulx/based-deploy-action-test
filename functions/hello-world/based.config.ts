@@ -4,7 +4,7 @@ const config: BasedFunctionConfig = {
   type: 'app',
   name: 'hello-world',
   public: true,
-  main: './app.ts',
+  main: './index.ts',
   path: '/',
 }
 
