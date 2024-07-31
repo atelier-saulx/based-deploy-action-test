@@ -10,7 +10,7 @@ const app: BasedAppFunction = async (_based) => {
         '<title>Hello World</title>' +
       '</head>' +
       '<body style="margin: 0;">' +
-        `<div id="root">Hello World from Based.io! 2</div>` +
+        `<div id="root">Hello World from the branch main in Based.io!</div>` +
       '</body>' +
     '</html>';
 };
