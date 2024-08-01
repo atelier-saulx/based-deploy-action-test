@@ -3,7 +3,7 @@ name: Based Deploy by Branch
 on:
   push:
     branches:
-      - '**'
+      - '*'
 
 jobs:
   deploy:
@@ -28,3 +28,4 @@ jobs:
           apiKey: ${{ secrets.BASED_API_KEY }}
           size: small
           region: eu-central-1
+          action: create-env
