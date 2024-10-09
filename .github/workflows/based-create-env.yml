@@ -1,4 +1,4 @@
-name: Based Deploy by Branch
+name: Based Deploy by Branch - Create Env
 
 on:
   push:
