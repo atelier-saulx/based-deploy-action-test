@@ -3,7 +3,7 @@ name: Based Deploy by Branch - Create Env
 on:
   push:
     branches:
-      - '*'
+      - '**'
 
 jobs:
   deploy:
