@@ -3,7 +3,7 @@ name: Based Deploy by Branch - Delete Env
 on:
   delete:
     branches:
-      - '*'
+      - '**'
 
 jobs:
   deploy:
