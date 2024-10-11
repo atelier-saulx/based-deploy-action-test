@@ -1,5 +1,5 @@
 export default {
   org: 'github-actions',
-  project: 'demo',
+  project: 'cli-test',
   env: '#branch',
 };
