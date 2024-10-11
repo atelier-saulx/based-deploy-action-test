@@ -1,5 +1,0 @@
-{
-  "org": "github-actions",
-  "project": "demo",
-  "env": "#branch"
-}
